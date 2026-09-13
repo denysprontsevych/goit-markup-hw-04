@@ -1,6 +1,5 @@
 .features {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .features-list {
@@ -10,6 +9,17 @@
 
 .features-item {
   width: calc((100% - 3 * 24px) / 4);
+}
+
+.features-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 
 .features-subtitle {
